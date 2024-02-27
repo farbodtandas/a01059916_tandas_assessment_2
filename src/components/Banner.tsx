@@ -22,6 +22,7 @@ const SubBanner = () => (
         flexDirection: 'column',
         justifyContent: 'center',
         textAlign: 'left',
+        color: 'black',
       }}>
         <p>Oddball is a basketball game tracker that combines real-time game statistics with live betting odds.
           It offers a user-friendly interface for easy access to scores, player performance, and team stats.

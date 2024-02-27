@@ -12,7 +12,7 @@ const NewsletterSection = () => (
     gap: '1rem',
     textAlign: 'center',
   }}>
-    <h2>Stay Updated</h2>
+    <h2 style={{fontSize: '24px', fontWeight: 'bold'}}>Stay Updated</h2>
     <p>Subscribe to our newsletter for the latest updates on odds and stats.</p>
     <div style={{
       display: 'flex',

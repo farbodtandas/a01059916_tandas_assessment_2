@@ -18,6 +18,7 @@ const Footer = () => (
           display: 'flex',
           flexDirection: 'row',
           gap: '10px',
+          color: 'black',
         }}><img src='images/github.png' style={{width: 'auto', height: '30px'}}/>Check out the github!</a>
       </div>
     </div>
