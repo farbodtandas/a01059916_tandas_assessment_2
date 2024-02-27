@@ -33,7 +33,7 @@ const NewsletterSection = () => (
         borderRadius: '0 50px 50px 0',
         padding: '1rem 2rem',
         color: 'black',
-        fontWeight: 'bold',
+        fontWeight: '600',
       }}>Subscribe</button>
     </div>
     <style>
@@ -41,7 +41,6 @@ const NewsletterSection = () => (
         @media (max-width: 768px) {
           div {
             flex-direction: column;
-            gap: 0.5rem;
           }
           input, button {
             width: 100%;
