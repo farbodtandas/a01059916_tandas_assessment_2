@@ -17,7 +17,6 @@ const NewsletterSection = () => (
     <div style={{
       display: 'flex',
       flexDirection: 'row',
-      gap: '0.5rem',
       width: '100%',
       maxWidth: '500px',
     }}>
