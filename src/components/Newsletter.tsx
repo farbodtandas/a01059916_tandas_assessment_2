@@ -43,8 +43,7 @@ const NewsletterSection = () => (
             flex-direction: column;
           }
           input, button {
-            width: 100%;
-            border-radius: 50px; // Adjusted for consistent appearance
+            border-radius: 50px;
           }
         }
       `}
