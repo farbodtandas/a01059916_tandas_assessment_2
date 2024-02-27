@@ -15,8 +15,8 @@ const Header = () => (
     zIndex: 1000,
     boxShadow: '0px 2px 2px 0px rgba(0, 0, 0, 0.2)',
   }}>
-    <div style={{justifyContent: 'center', alignItems: 'center', }}>
-      <img src='images/OddBall.png' alt="Logo" style={{ height: '3rem', width: 'auto', justifyContent: 'center', alignItems: 'center', }} />
+    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', }}>
+      <img src='images/OddBall.png' alt="Logo" style={{ height: 'auto', width: '5rem', justifyContent: 'center', alignItems: 'center', }} />
     </div>
     <div style={{
       display: 'flex',
@@ -26,15 +26,14 @@ const Header = () => (
       alignItems: 'center',
       textAlign: 'center',
     }}>
-      <a style={{cursor: 'pointer', fontSize: '0.9rem'}}>Contact</a>
-      <a style={{cursor: 'pointer', fontSize: '0.9rem'}}>Pricing</a>
+      <a style={{cursor: 'pointer', fontSize: '0.9rem', color: 'black',}}>Contact</a>
+      <a style={{cursor: 'pointer', fontSize: '0.9rem', color: 'black',}}>Pricing</a>
       <button style={{
         backgroundColor: '#00A375',
         minWidth: '100px',
         height: '2.5rem',
         color: 'white',
         borderRadius: '50px',
-        marginRight: '0.5rem',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
