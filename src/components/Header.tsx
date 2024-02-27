@@ -15,7 +15,9 @@ const Header = () => (
     zIndex: 1000,
     boxShadow: '0px 2px 2px 0px rgba(0, 0, 0, 0.2)',
   }}>
-    <img src='images/OddBall.png' alt="Logo" style={{ height: '3rem', width: 'auto', justifyContent: 'center', alignItems: 'center', }} />
+    <div style={{justifyContent: 'center', alignItems: 'center', }}>
+      <img src='images/OddBall.png' alt="Logo" style={{ height: '3rem', width: 'auto', justifyContent: 'center', alignItems: 'center', }} />
+    </div>
     <div style={{
       display: 'flex',
       flexDirection: 'row',
