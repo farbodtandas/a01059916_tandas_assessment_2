@@ -30,7 +30,7 @@ const PricingCards = () => (
       }}>
         <Spline scene="https://prod.spline.design/ylsL08ps4IbVLtC5/scene.splinecode" style={{ height: '150px', width: '100%', maxWidth: '300px', }} />
         <p><b style={{ fontSize: '30px' }}>Seasonal Training</b></p>
-        <p style={{ color: 'rgba(0, 0, 0, 0.6)' }}>Training that is scheduled before the NBA season begings for learning and discussing patterns for all NBA teams and players to evaluate odds.</p>
+        <p style={{ color: 'rgba(0, 0, 0, 0.6)' }}>Training that is scheduled before the NBA season begins for learning and discussing patterns for all NBA teams and players to evaluate odds.</p>
         <p><b style={{ fontSize: '30px' }}>$11.99</b>/mo</p>
         <button style={{
           backgroundColor: '#00A375',
