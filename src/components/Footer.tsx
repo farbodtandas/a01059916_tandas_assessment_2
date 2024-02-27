@@ -12,7 +12,7 @@ const Footer = () => (
       padding: '20px',
       backgroundColor: 'white',
     }}>
-      <p>&copy; Farbod Tandas</p>
+      <p style={{ color: 'black',}}>&copy; Farbod Tandas</p>
       <div>
         <a href="https://github.com/jillnguyen2311/NBATracker-final-project-MDIA3109" style={{
           display: 'flex',
