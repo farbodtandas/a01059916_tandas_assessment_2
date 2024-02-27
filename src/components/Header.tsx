@@ -34,6 +34,7 @@ const Header = () => (
         height: '2.5rem',
         color: 'white',
         borderRadius: '50px',
+        marginRight: '0.5rem',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
