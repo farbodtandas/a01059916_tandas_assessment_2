@@ -41,9 +41,9 @@ const NewsletterSection = () => (
         @media (max-width: 768px) {
           div {
             flex-direction: column;
-            width: 100%;
           }
           input, button {
+            width: 100%;
             border-radius: 50px;
           }
         }
