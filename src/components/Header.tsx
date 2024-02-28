@@ -7,7 +7,7 @@ const Header = () => (
     justifyContent: 'space-between',
     alignItems: 'center',
     padding: '1rem',
-    margin: '0 auto',
+    margin: '0',
     width: '100%',
     backgroundColor: 'white',
     position: 'sticky',
@@ -50,19 +50,19 @@ const Header = () => (
             padding: 0.5rem; // Reduce padding
           }
           img {
-            margin-bottom: 0.5rem; // Reduce space between the logo and menu items
-            height: 2.5rem; // Reduce logo size
+            margin-bottom: 0.5rem;
+            height: 2.5rem;
           }
           div {
             flex-direction: column;
-            gap: 0.5rem; // Reduce gap
+            gap: 0.5rem;
           }
           a, button {
-            fontSize: 0.8rem; // Reduce font size
+            fontSize: 0.8rem;
           }
           button {
-            width: 80%; // Adjust width for better fit
-            height: 2rem; // Reduce button height
+            width: 80%;
+            height: 2rem;
           }
         }
       `}
