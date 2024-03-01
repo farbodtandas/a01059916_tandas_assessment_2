@@ -88,7 +88,7 @@ const PricingCards = () => (
         textAlign: 'center',
         gap: '10px',
       }}>
-        <Spline scene="https://prod.spline.design/46UpT1fJICyQl4e7/scene.splinecode" style={{ height: '150px', width: '100%', maxWidth: '300px', }} />
+        <Spline scene="https://prod.spline.design/HFP7fZF0mgS4L7LX/scene.splinecode" style={{ height: '150px', width: '100%', maxWidth: '300px', }} />
         <p><b style={{ fontSize: '30px' }}>Weekly Training</b></p>
         <p style={{ color: 'rgba(0, 0, 0, 0.6)' }}>Training that is scheduled once a week for learning and discussing patterns for all NBA teams and players to evaluate odds.</p>
         <p><b style={{ fontSize: '30px' }}>$39.99</b>/mo</p>
